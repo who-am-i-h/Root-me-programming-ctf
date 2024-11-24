@@ -22,6 +22,6 @@ while True:
             print("fg")
             l = l.encode()
             s.send(l)
-            # print(s.recv(1024).decode())
+            print(s.recv(1024).decode())
             break
     break
